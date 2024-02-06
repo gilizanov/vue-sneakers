@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(247 254 231);
+}
+
+@layer utilites {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
